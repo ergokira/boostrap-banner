@@ -1,0 +1,19 @@
+{
+  "name": "boostrap-banner",
+  "version": "0.1.0",
+  "description": "Boostrap Carousel modification for banner",
+  "authors": [
+    "ergokira"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ergokira/boostrap-banner",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap-sass": "boostrap-sass#^3.3.7"
+  }
+}

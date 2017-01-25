@@ -1,0 +1,113 @@
+@import "././bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/*---Body---*/
+ 
+html,
+	body {
+	  height: 100%;
+	  width: 100%;
+	}
+
+
+
+/*---Header / #myCarousel (with slider)---*/
+
+header {
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	color: white;
+	text-align: center;  
+}
+
+
+/*---Slider---*/
+
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-fade .carousel-inner .item {
+    transition-property: opacity;
+}
+.item,
+.active.left,
+.active.right {
+    opacity: 0;
+}
+
+.active,
+.next.left,
+.prev.right {
+    opacity: 1;
+}
+
+.next,
+.prev,
+.active.left,
+.active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+}
+
+.carousel-control {
+    z-index: 2;
+}
+
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Background images are set here */
+
+.item:nth-child(1){
+    .fill{
+        background-image:url(../img/;
+    }    
+}
+.item:nth-child(2){
+    .fill{
+        background-image:url(../img/);
+    }    
+}
+.item:nth-child(3){
+    .fill{
+        background-image:url(../img/);
+    }
+}
+
+
+@media (min-width: 768px) {
+    .header {
+        min-height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
